@@ -1,9 +1,11 @@
 import React from "react";
 import ButtonGroup from "./Components/ButtonGroup";
+import NavBar from "./Components/NavBar";
 
 function App() {
   return (
     <>
+      <NavBar />
       <div className="text-4xl flex items-center justify-center">
         <h1>Happy YEG</h1>
       </div>
