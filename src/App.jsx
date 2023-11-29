@@ -1,15 +1,16 @@
 import React from "react";
 import ButtonGroup from "./Components/ButtonGroup";
 import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
       <NavBar />
-      <div className="text-4xl flex items-center justify-center">
+      <div className="text-4xl flex items-center justify-center my-6">
         <h1>Happy YEG</h1>
       </div>
-      <div>
+      <div className="px-8">
         <p>
           These days, time are tough. It's getting harder to spend money when
           you go out especially with prices going higher, but it doesn't mean
@@ -26,6 +27,8 @@ function App() {
         </p>
       </div>
       <ButtonGroup />
+      <div></div>
+      <Footer />
     </>
   );
 }
