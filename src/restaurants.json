@@ -1,19 +1,34 @@
 [
-    {
-      "id": 0,
-      "name": "Restaurant A",
-      "location": "South Side",
-      "address": "Edmonton, AB",
-      "businessHours": "24/7",
-      "specials": "Happy hour 3pm - 7pm"
-    },
-    {
-      "id": 1,
-      "name": "Restaurant B",
-      "location": "North Side",
-      "address": "Edmonton, AB",
-      "businessHours": "7am - 7pm",
-      "specials": "Happy hour 5pm - 9pm"
-    }
-  ]
-  
+  {
+    "id": 0,
+    "name": "Restaurant A",
+    "location": "South Side",
+    "address": "Edmonton, AB",
+    "businessHours": "24/7",
+    "specials": "Happy hour 3pm - 7pm"
+  },
+  {
+    "id": 1,
+    "name": "Restaurant B",
+    "location": "North Side",
+    "address": "Edmonton, AB",
+    "businessHours": "7am - 7pm",
+    "specials": "Happy hour 5pm - 9pm"
+  },
+  {
+    "id": 2,
+    "name": "Pub",
+    "location": "West Side",
+    "address": "Edmonton, AB",
+    "businessHours": "7am - 7pm",
+    "specials": "Happy hour 5pm - 9pm"
+  },
+  {
+    "id": 3,
+    "name": "Bar",
+    "location": "Downtown",
+    "address": "Edmonton, AB",
+    "businessHours": "7am - 7pm",
+    "specials": "Happy hour 5pm - 9pm"
+  }
+]

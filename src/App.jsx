@@ -8,6 +8,7 @@ function App() {
   const [restaurants, setRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [activeFilter, setActiveFilter] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     fetch("/src/restaurants.json")
@@ -32,14 +33,23 @@ function App() {
     }
   };
 
+  useEffect(() => {
+    console.log("Search Term:", searchTerm);
+    const filtered = restaurants.filter((restaurant) =>
+      restaurant.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    console.log("Filtered Restaurants:", filtered);
+    setFilteredRestaurants(filtered);
+  }, [searchTerm, restaurants]);
+
   return (
     <>
-      <NavBar />
+      <NavBar setSearchTerm={setSearchTerm} />
       <div className="text-4xl flex items-center justify-center my-6">
-        <h1>Happy YEG</h1>
+        <h1>Welcome to Happy YEG</h1>
       </div>
-      <div className="px-8">
-        <p>
+      <div className="flex flex-col justify-center px-8">
+        <p className="mb-4">
           These days, time are tough. It's getting harder to spend money when
           you go out especially with prices going higher, but it doesn't mean
           you can't go out and celebrate without breaking the bank! Take
