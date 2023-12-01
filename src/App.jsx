@@ -3,12 +3,23 @@ import ButtonGroup from "./Components/ButtonGroup";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import RestaurantItem from "./Components/RestaurantItem";
+import ContactForm from "./Components/ContactForm";
 
 function App() {
   const [restaurants, setRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
-  const [activeFilter, setActiveFilter] = useState(null);
+  const [activeFilter, setActiveFilter] = useState([null]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [isContactFormOpen, setContactFormOpen] = useState(false);
+
+  useEffect(() => {
+    // Fetch your restaurant data or set it as needed
+    const fetchedRestaurants = [
+      // Your restaurant data here
+    ];
+    setRestaurants(fetchedRestaurants);
+    setFilteredRestaurants();
+  }, []);
 
   useEffect(() => {
     fetch("/src/restaurants.json")
@@ -42,11 +53,20 @@ function App() {
     setFilteredRestaurants(filtered);
   }, [searchTerm, restaurants]);
 
+  const openContactForm = () => {
+    setContactFormOpen(true);
+  };
+
+  const closeContactForm = () => {
+    setContactFormOpen(false);
+  };
+
   return (
     <>
-      <NavBar setSearchTerm={setSearchTerm} />
+      <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
+      <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} />
       <div className="text-4xl flex items-center justify-center my-6">
-        <h1>Welcome to Happy YEG</h1>
+        <h1 id="top">Welcome to Happy YEG</h1>
       </div>
       <div className="flex flex-col justify-center px-8">
         <p className="mb-4">
