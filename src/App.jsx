@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import RestaurantItem from "./Components/RestaurantItem";
 import ContactForm from "./Components/ContactForm";
+import happyLogo from "./assets/happylogo.jpg";
 
 function App() {
   const [restaurants, setRestaurants] = useState([]);
@@ -65,10 +66,11 @@ function App() {
     <>
       <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
       <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} />
-      <div className="text-4xl flex items-center justify-center my-6">
-        <h1 id="top">Welcome to Happy YEG</h1>
+      <div className="text-4xl flex items-center justify-center my-6 flex-col">
+        <h1 className="my-4">Welcome to Happy YEG</h1>
+        <img src={happyLogo}></img>
       </div>
-      <div className="flex flex-col justify-center px-8">
+      <div id="top" className="flex flex-col justify-center px-8">
         <p className="mb-4">
           These days, time are tough. It's getting harder to spend money when
           you go out especially with prices going higher, but it doesn't mean
