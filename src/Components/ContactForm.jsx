@@ -36,7 +36,7 @@ const ContactForm = ({ isOpen, onClose }) => {
         <div className="flex justify-between">
           <p>
             I try to keep everything as up to date as I possibly but if there's
-            something that is outdaed, or if you'd like to let me know about a
+            something that is outdated, or if you'd like to let me know about a
             restaurant that should be on the list let me know! Fill out the
             message form below to send me a message.
           </p>
