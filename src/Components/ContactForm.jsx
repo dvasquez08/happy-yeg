@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
@@ -6,9 +7,25 @@ const ContactForm = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Message submitted:", message);
-    // Close the form
+    const serviceID = "service_zhjhchq";
+    const templateID = "template_akffoha";
+    const publicKey = "xdXJsVWDNuAvZdBbW";
+
+    const templateParams = {
+      from_name: name,
+      message: message,
+    };
+
+    emailjs
+      .send(serviceID, templateID, templateParams, publicKey)
+      .then((response) => {
+        console.log("Message submitted:", response);
+        setName("");
+        setMessage("");
+      })
+      .catch((error) => {
+        console.error("Error sending message", error);
+      });
     onClose();
   };
 
@@ -55,7 +72,7 @@ const ContactForm = ({ isOpen, onClose }) => {
           ></textarea>
           <button
             type="submit"
-            className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500"
+            className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500"
           >
             Send Message
           </button>

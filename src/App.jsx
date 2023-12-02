@@ -14,15 +14,6 @@ function App() {
   const [isContactFormOpen, setContactFormOpen] = useState(false);
 
   useEffect(() => {
-    // Fetch your restaurant data or set it as needed
-    const fetchedRestaurants = [
-      // Your restaurant data here
-    ];
-    setRestaurants(fetchedRestaurants);
-    setFilteredRestaurants();
-  }, []);
-
-  useEffect(() => {
     fetch("/src/restaurants.json")
       .then((response) => response.json())
       .then((data) => {

@@ -3,7 +3,7 @@ import React from "react";
 function ButtonGroup({ handleFilter }) {
   return (
     <>
-      <h1 id="top" className="text-3xl flex items-center justify-center my-4">
+      <h1 className="text-3xl flex items-center justify-center my-4">
         Select Location
       </h1>
       <p className="flex items-center justify-center my-3">
