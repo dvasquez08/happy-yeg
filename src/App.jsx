@@ -3,7 +3,7 @@ import ButtonGroup from "./Components/ButtonGroup";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import RestaurantItem from "./Components/RestaurantItem";
-import ContactForm from "./Components/ContactForm";
+// import ContactForm from "./Components/ContactForm";
 import happyLogo from "./assets/happylogo.jpg";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [activeFilter, setActiveFilter] = useState([null]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [isContactFormOpen, setContactFormOpen] = useState(false);
+  // const [isContactFormOpen, setContactFormOpen] = useState(false);
 
   useEffect(() => {
     fetch("/src/restaurants.json")
@@ -56,7 +56,7 @@ function App() {
   return (
     <>
       <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
-      <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} />
+      {/* <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} /> */}
       <div className="text-4xl flex items-center justify-center my-6 flex-col">
         <h1 className="my-4">Welcome to Happy YEG</h1>
         <img src={happyLogo}></img>
@@ -72,9 +72,9 @@ function App() {
         <p>
           Don't know what the happy hour specials are in the restaurants in your
           area? Don't sweat, that's what this site is for! Here's a list of
-          happy hours throughout the city of Edmontont. This list will grow as
-          more research is done and will update as things change. Have a look,
-          and I hope you find a great place in your area!
+          happy hours throughout the city of Edmonton. This list will grow as
+          more research is done and I will update as things change. Have a look,
+          and I hope you find a great place close to you!
         </p>
       </div>
       <ButtonGroup handleFilter={handleFilter} />

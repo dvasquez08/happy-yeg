@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import happyLogo from "../assets/happylogo.jpg";
-// import searchTerm from "../App.jsx";
+import ContactForm from "./ContactForm";
 
-function NavBar({ searchTerm, setSearchTerm, openContactForm }) {
+function NavBar({ searchTerm, setSearchTerm }) {
+  const [isContactFormOpen, setContactFormOpen] = useState(false);
+
+  const openContactForm = () => {
+    setContactFormOpen(true);
+  };
+
+  const closeContactForm = () => {
+    setContactFormOpen(false);
+  };
+
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-sky-900 sticky top-0">
@@ -153,6 +163,7 @@ function NavBar({ searchTerm, setSearchTerm, openContactForm }) {
             </ul>
           </div>
         </div>
+        <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} />
       </nav>
     </>
   );
