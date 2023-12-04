@@ -3,15 +3,14 @@ import ButtonGroup from "./Components/ButtonGroup";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import RestaurantItem from "./Components/RestaurantItem";
-// import ContactForm from "./Components/ContactForm";
 import happyLogo from "./assets/happylogo.jpg";
+import { Helmet } from "react-helmet";
 
 function App() {
   const [restaurants, setRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const [activeFilter, setActiveFilter] = useState([null]);
   const [searchTerm, setSearchTerm] = useState("");
-  // const [isContactFormOpen, setContactFormOpen] = useState(false);
 
   useEffect(() => {
     fetch("/src/restaurants.json")
@@ -55,8 +54,33 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <title>Happy YEG | Happy Hour List for Edmonton Restaurants</title>
+        <link rel="icon" type="image/png" href="/assets/favicon.png" />
+        <meta
+          name="description"
+          content="Listing all of the happy hour specials of restaurants across the city of Edmonton"
+        />
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Happy YEG" />
+        <meta
+          property="og:description"
+          content="A website that lists all the happy hour specials of restaurants across the city of Edmonton"
+        />
+        <meta property="og:image" content={happyLogo} />
+        <meta property="og:url" content="https://happyyeg.com" />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content={happyLogo} />
+        <meta name="twitter:title" content="Happpy YEG" />
+        <meta
+          name="twitter:description"
+          content="Listing all of the happy hour specials of restaurants across the city of Edmonton"
+        />
+        <meta name="twitter:image" content={happyLogo} />
+      </Helmet>
       <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
-      {/* <ContactForm isOpen={isContactFormOpen} onClose={closeContactForm} /> */}
       <div className="text-4xl flex items-center justify-center my-6 flex-col">
         <h1 className="my-4">Welcome to Happy YEG</h1>
         <img src={happyLogo}></img>
