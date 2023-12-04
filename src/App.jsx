@@ -48,9 +48,9 @@ function App() {
     setContactFormOpen(true);
   };
 
-  const closeContactForm = () => {
-    setContactFormOpen(false);
-  };
+  // const closeContactForm = () => {
+  //   setContactFormOpen(false);
+  // };
 
   return (
     <>
