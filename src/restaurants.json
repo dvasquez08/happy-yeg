@@ -1,34 +1,101 @@
 [
   {
     "id": 0,
-    "name": "Restaurant A",
-    "location": "South Side",
-    "address": "Edmonton, AB",
-    "businessHours": "24/7",
-    "specials": "Happy hour 3pm - 7pm"
+    "name": "CRAFT Beer Market Edmonton",
+    "location": "Downtown",
+    "address": "10013 101A Avenue",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1:30am",
+    "happyhour": "Monday to Thursday 2pm to 5pm & 9pm to close | Friday, Saturday 2pm to 5pm | Sunday all day",
+    "specials": "Drinks: $4 Red Bull | $5 CRAFT House Beer, Strawberry Lemonade, CRAFT Mule, Corona Sunbrew | $6 Well Highballs (1oz), House White/Red Wine (5oz) | $7 OG Shaft, Rotating Taps |$9 Lime Margarita (2oz) | $10 Rosé Lemonade | $12 Espresso Martini | Food: $5 Beer Salt Fries | $6 Yam Fries, Cabo Fish Taco (one) | $10 Deep Fried Pickles, Chips and Guac | $16 Classic Burger, Brewmasters Chicken Sandwich, Impossible Burger, Cali Bowl, Kale Margerita Pizza | $17 Queen Bee Pizza | $19 AC Burger | $20 Sticky Chicken Ramen, Laguna Beach Chicken Bowl, Baja Chicken Salad | $21 CRAFT Mac & Cheese | $23 Ahi Poke Bowl, Chili Prawn Fettucine Daily Specials: Mon: x2 Pizzas for $30, $8 CRAF Mules | Tues: $6 Tuesday Burger, House Beers, Bubbles | Wed: $10 1lb Wings. ½ Price Wine Bottles | Thurs: $6 Cabo Fish Tacos, $10 Margaritas  "
   },
   {
     "id": 1,
-    "name": "Restaurant B",
-    "location": "North Side",
-    "address": "Edmonton, AB",
-    "businessHours": "7am - 7pm",
-    "specials": "Happy hour 5pm - 9pm"
+    "name": "Earls Kitchen + Bar 170th Street",
+    "location": "West Side",
+    "address": "9961 170th Street",
+    "businessHours": "Sun 10am to 11pm | Mon 11:30am to 11pm | Tues to Thurs 11:30am to Midnight | Fri 11:30am to 1am | Sat 10am to 1am",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Half Dozen Oysters, Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
   },
   {
     "id": 2,
-    "name": "Pub",
-    "location": "West Side",
-    "address": "Edmonton, AB",
-    "businessHours": "7am - 7pm",
-    "specials": "Happy hour 5pm - 9pm"
+    "name": "Earls Kitchen + Bar Clareview",
+    "location": "North Side",
+    "address": "13330 50th Street",
+    "businessHours": "Sun 10am to 11pm | Mon 11:30am to 11pm | Tues to Thurs 11:30am to Midnight | Fri 11:30am to 1am | Sat 10am to 1am",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Half Dozen Oysters, Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
   },
   {
     "id": 3,
-    "name": "Bar",
+    "name": "Earls Kitchen + Bar Crossroads",
+    "location": "South Side",
+    "address": "4250 Calgary Trail NW",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1am",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Half Dozen Oysters, Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
+  },
+  {
+    "id": 4,
+    "name": "Earls Kitchen + Bar Campus",
+    "location": "South Side",
+    "address": "8629 112 Street NW",
+    "businessHours": "Sunday to Thursday 11am to 11pm | Friday, Saturday 11am to Midnight",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $18 Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites"
+  },
+  {
+    "id": 5,
+    "name": "Earls Kitchen + Bar Tin Palace",
     "location": "Downtown",
-    "address": "Edmonton, AB",
-    "businessHours": "7am - 7pm",
-    "specials": "Happy hour 5pm - 9pm"
+    "address": "11830 Jasper Avenue",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1am",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
+  },
+  {
+    "id": 6,
+    "name": "Earls Kitchen + Bar Southcommon",
+    "location": "South Side",
+    "address": "1505 99th Street",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1am",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Half Dozen Oysters, Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
+  },
+  {
+    "id": 7,
+    "name": "Earls Kitchen + West Edmonton Mall",
+    "location": "West Side",
+    "address": "WEM, 8882 170 St NW #1667",
+    "businessHours": "Sunday 11am to 10pm | Monday to Thursday 11am to 11pm | Friday, Saturday 11am to Midnight",
+    "happyhour": "Everyday 2pm to 5pm & 9pm to close",
+    "specials": "$5 Sangria, 12oz Rhino Draught, Well Highballs | $6 Rascal Red and White Wines | $8 Earl Grey Sonic, Grap Crush Vodka Soda, 5 oz Sundowner Chardonnay, Moscow Mule (1oz), 5oz Como Loco Tempranillo, 18oz Rhino Draught, Dirty Gin and Tonic | $10 9oz Rascal Red and White Wines, 500ml Stella Artois, 5oz Villa Marchesi Prosecco Rosé, Nitro Espresso Martini (1oz), Classic Margarita (1.5oz) | $12 Lychee Tini (2.75oz), Earls Old Fashioned (2oz), Earls Dirty Martini (2.5oz) | $14 9oz Como Loco Tempranillo, 9oz Strawberry Smokeshow Margarita, 1.5oz Don Julio Margarita | Food: $4 Fries, Vegan Angry Tofu Lettuce Wrap Duo, Sushi Taco | $6 Yam Fries or Truffle Fries, Angry Chicken Lettuce Wrap Duo | $11 Margherita Pizza, Street Corn + Avocado Dip | $14 West Coast Prawn Pizza, Tropic Thunder Pizza, Kale and Mushroom Pizza, Angry Chicken Lettuce Wraps | $16 Prawn Cocktail, Yuzu Tuna Tataki, | $18 Bangkok Bowl (extra $7 with chicken, prawns, or 3oz sirloin) | $21 Ahi Tuna Poke Bowl, Jumbo Lump Crab Cake | $24 Earls Chicken Biryani, 6 oz Steak Frites | $70 Seafood Platter (regular price $90)"
+  },
+  {
+    "id": 8,
+    "name": "JOEY Bell Tower",
+    "location": "Downtown",
+    "address": "10310 101 St NW",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1am",
+    "happyhour": "2pm to 5pm Daily | 9pm to close on Sunday to Thursday, 10pm to close on Friday to Saturday",
+    "specials": "Drinks: $5 Single Supers (1oz), JOEY Genuine Draft (14oz) | $6 Signature Sangria (3oz), Cuvée Jean Paul White (5oz), Cuvée Jean Paul Red (5oz), Okanagan Springs 1516 (14oz), Parallel 49 Trash Panda IPA (14oz) | $7 Real Peach Bellini (1oz) | $8 El Petit Bonhomme Red Blend - 5oz, Castel Firmian Pinot Grigio - 5oz | $9 Stella Artois (400ml) $9.75 Classic Margarita, Aperol Spritz, Cuvée Jean Paul Red (8oz), Cuvée Jean Paul White (8oz) | $12.75 Castel Firmian Pinot Grigio (8oz), El Petit Bonhomme Red Blen (8oz) $12.75      Food: $5 Yam Fries / Fries, Duo of Donuts, Sushi Cone $8 Truffle Parmesan Fries | $12 Roasted Corn Guacamole, Japanese Gyoza | $14 Hummus, Sliders Royale Trio | $15 Hand-Pressed Burger (+ $4 to add mushroom and cheddar + $4 to add bacon cheddar) | $16 California Chicken Club | $19 Szechuan Chicken Lettuce Wraps, Szechuan Tofu Lettuce Wraps, Spaghetti Pomodoro, Crispy Tofu Bowl | $20 Teriyaki Chicken Rice Bowl | $21 Tuna Poke Bowl, Szechuan Prawn Lettuce Wraps | $23 Steak Frites"
+  },
+  {
+    "id": 9,
+    "name": "JOEY Mayfield",
+    "location": "West Side",
+    "address": "130 Mayfield Common NW",
+    "businessHours": "Everyday 11am to Midnight",
+    "happyhour": "2pm to 5pm Daily | 9pm to close on Sunday to Thursday, 10pm to close on Friday to Saturday",
+    "specials": "Drinks: $5 Single Supers (1oz), JOEY Genuine Draft (14oz) | $6 Signature Sangria (3oz), Cuvée Jean Paul White (5oz), Cuvée Jean Paul Red (5oz), Okanagan Springs 1516 (14oz), Parallel 49 Trash Panda IPA (14oz) | $7 Real Peach Bellini (1oz) | $8 El Petit Bonhomme Red Blend - 5oz, Castel Firmian Pinot Grigio - 5oz | $9 Stella Artois (400ml) $9.75 Classic Margarita, Aperol Spritz, Cuvée Jean Paul Red (8oz), Cuvée Jean Paul White (8oz) | $12.75 Castel Firmian Pinot Grigio (8oz), El Petit Bonhomme Red Blen (8oz) $12.75      Food: $5 Yam Fries / Fries, Duo of Donuts, Sushi Cone $8 Truffle Parmesan Fries | $12 Roasted Corn Guacamole, Japanese Gyoza | $14 Hummus, Sliders Royale Trio | $15 Hand-Pressed Burger (+ $4 to add mushroom and cheddar + $4 to add bacon cheddar) | $16 California Chicken Club | $19 Szechuan Chicken Lettuce Wraps, Szechuan Tofu Lettuce Wraps, Spaghetti Pomodoro, Crispy Tofu Bowl | $20 Teriyaki Chicken Rice Bowl | $21 Tuna Poke Bowl, Szechuan Prawn Lettuce Wraps | $23 Steak Frites"
+  },
+  {
+    "id": 10,
+    "name": "JOEY Southcommon",
+    "location": "South Side",
+    "address": "9911 19 Ave NW",
+    "businessHours": "Sunday to Thursday 11am to Midnight | Friday, Saturday 11am to 1am",
+    "happyhour": "2pm to 5pm Daily | 9pm to close on Sunday to Thursday, 10pm to close on Friday to Saturday",
+    "specials": "Drinks: $5 Single Supers (1oz), JOEY Genuine Draft (14oz) | $6 Signature Sangria (3oz), Cuvée Jean Paul White (5oz), Cuvée Jean Paul Red (5oz), Okanagan Springs 1516 (14oz), Parallel 49 Trash Panda IPA (14oz) | $7 Real Peach Bellini (1oz) | $8 El Petit Bonhomme Red Blend - 5oz, Castel Firmian Pinot Grigio - 5oz | $9 Stella Artois (400ml) $9.75 Classic Margarita, Aperol Spritz, Cuvée Jean Paul Red (8oz), Cuvée Jean Paul White (8oz) | $12.75 Castel Firmian Pinot Grigio (8oz), El Petit Bonhomme Red Blen (8oz) $12.75      Food: $5 Yam Fries / Fries, Duo of Donuts, Sushi Cone $8 Truffle Parmesan Fries | $12 Roasted Corn Guacamole, Japanese Gyoza | $14 Hummus, Sliders Royale Trio | $15 Hand-Pressed Burger (+ $4 to add mushroom and cheddar + $4 to add bacon cheddar) | $16 California Chicken Club | $19 Szechuan Chicken Lettuce Wraps, Szechuan Tofu Lettuce Wraps, Spaghetti Pomodoro, Crispy Tofu Bowl | $20 Teriyaki Chicken Rice Bowl | $21 Tuna Poke Bowl, Szechuan Prawn Lettuce Wraps | $23 Steak Frites"
   }
 ]

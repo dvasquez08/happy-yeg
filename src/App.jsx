@@ -48,10 +48,6 @@ function App() {
     setContactFormOpen(true);
   };
 
-  // const closeContactForm = () => {
-  //   setContactFormOpen(false);
-  // };
-
   return (
     <>
       <Helmet>

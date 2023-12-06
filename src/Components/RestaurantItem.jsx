@@ -8,8 +8,18 @@ const RestaurantItem = ({ restaurant }) => (
           <h2 className="font-semibold">{restaurant.name}</h2>
           <p>{restaurant.location}</p>
           <p>{restaurant.address}</p>
-          <p>{restaurant.businessHours}</p>
-          <p>{restaurant.specials}</p>
+          <p>
+            <span className="font-bold">Business Hours: </span>
+            {restaurant.businessHours}
+          </p>
+          <p>
+            <span className="font-bold">Happy Hour: </span>
+            {restaurant.happyhour}
+          </p>
+          <p>
+            <span className="font-bold">Specials: </span>
+            {restaurant.specials}
+          </p>
         </div>
       </li>
     </div>
