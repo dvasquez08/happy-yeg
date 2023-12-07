@@ -26,7 +26,7 @@ const ContactForm = ({ isOpen, onClose }) => {
       .catch((error) => {
         console.error("Error sending message", error);
       });
-    onClose();
+    // onClose();
   };
 
   return (
@@ -63,21 +63,22 @@ const ContactForm = ({ isOpen, onClose }) => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
-          <div className="flex justify-between">
-            <button
-              type="submit"
-              className="mt-4 bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500"
-            >
-              Send Message
-            </button>
-            <button
-              className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none"
-              onClick={onClose}
-            >
-              Close
-            </button>
-          </div>
+
+          <button
+            type="submit"
+            className="mt-4 bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500"
+          >
+            Send Message
+          </button>
         </form>
+        <div className="grid justify-items-end">
+          <button
+            className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none"
+            onClick={onClose}
+          >
+            Close
+          </button>
+        </div>
       </div>
     </div>
   );

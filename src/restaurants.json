@@ -108,5 +108,25 @@
     "happyhour": "2pm to 5pm Daily | 9pm to close on Sunday to Thursday, 10pm to close on Friday to Saturday",
     "drinkSpecials": "$5 Single Supers (1oz), JOEY Genuine Draft (14oz) | $6 Signature Sangria (3oz), Cuvée Jean Paul White (5oz), Cuvée Jean Paul Red (5oz), Okanagan Springs 1516 (14oz), Parallel 49 Trash Panda IPA (14oz) | $7 Real Peach Bellini (1oz) | $8 El Petit Bonhomme Red Blend - 5oz, Castel Firmian Pinot Grigio - 5oz | $9 Stella Artois (400ml) $9.75 Classic Margarita, Aperol Spritz, Cuvée Jean Paul Red (8oz), Cuvée Jean Paul White (8oz) | $12.75 Castel Firmian Pinot Grigio (8oz), El Petit Bonhomme Red Blen (8oz) $12.75",
     "foodSpecials": "$5 Yam Fries / Fries, Duo of Donuts, Sushi Cone $8 Truffle Parmesan Fries | $12 Roasted Corn Guacamole, Japanese Gyoza | $14 Hummus, Sliders Royale Trio | $15 Hand-Pressed Burger (+ $4 to add mushroom and cheddar + $4 to add bacon cheddar) | $16 California Chicken Club | $19 Szechuan Chicken Lettuce Wraps, Szechuan Tofu Lettuce Wraps, Spaghetti Pomodoro, Crispy Tofu Bowl | $20 Teriyaki Chicken Rice Bowl | $21 Tuna Poke Bowl, Szechuan Prawn Lettuce Wraps | $23 Steak Frites"
+  },
+  {
+    "id": 11,
+    "name": "Thai Avenue",
+    "location": "North Side",
+    "address": "6536 170 Avenue NW",
+    "businessHours": "Sunday 12pm to 8:30pm | Monday - Closed | Tuesday to Thursday 11am to 8:30pm | Friday 11am to 9pm | Saturday 11:30am to 9pm",
+    "happyhour": "Sunday to Thursday 2pm to 4pm",
+    "drinkSpecials": "$4.99 Domestic Beers | $5.99 Imported Beers | $15 Soju",
+    "foodSpecials": ""
+  },
+  {
+    "id": 12,
+    "name": "XO Bistro Downtown",
+    "location": "Downtown",
+    "address": "10236 103 Street NW",
+    "businessHours": "Sunday to Thursday 11:30am to 9pm | Friday, Saturday 11:30am to Midnight",
+    "happyhour": "Everyday 3pm to 5pm",
+    "drinkSpecials": "$5 Ceasar (1oz), Sapporo Draught, Wine (6oz), Well Highball",
+    "foodSpecials": "$5 x2 Skewers, HH XO Fries, Edamame, Green Onion Cake $13 Pho Sate (Regular size with choice of meat), Lemon Chicken"
   }
 ]

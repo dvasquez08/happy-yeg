@@ -6,7 +6,7 @@ function ButtonGroup({ handleFilter }) {
       <h1 className="text-3xl flex items-center justify-center my-4">
         Select Location
       </h1>
-      <p className="flex items-center justify-center my-3">
+      <p className="flex items-center justify-center my-3 px-8">
         Select a location below to find a restaurant in the area of your choice.
       </p>
       <div className="flex justify-evenly">

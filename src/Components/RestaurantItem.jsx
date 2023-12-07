@@ -2,7 +2,7 @@ import React from "react";
 
 const RestaurantItem = ({ restaurant }) => (
   <>
-    <div className="ml-4 w-11/12 py-4 flex justify-center">
+    <div className="ml-4 w-11/12 py-4 flex grid justify-items-start">
       <li key={restaurant.id}>
         <div className="bg-neutral-200 p-4 rounded-md">
           <h2 className="font-semibold">{restaurant.name}</h2>
