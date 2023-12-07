@@ -13,7 +13,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("/src/restaurants.json")
+    fetch("restaurants.json")
       .then((response) => response.json())
       .then((data) => {
         setRestaurants(data);
@@ -75,6 +75,7 @@ function App() {
           content="Listing all of the happy hour specials of restaurants across the city of Edmonton"
         />
         <meta name="twitter:image" content={happyLogo} />
+        <meta name="google-adsense-account" content="ca-pub-9756486243469160" />
       </Helmet>
       <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
       <div className="text-4xl flex items-center justify-center my-6 flex-col">
