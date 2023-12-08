@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-captcha";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactForm = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
@@ -22,6 +22,7 @@ const ContactForm = ({ isOpen, onClose }) => {
     const templateParams = {
       from_name: name,
       message: message,
+      "g-recaptcha-response": recaptchaValue,
     };
 
     emailjs
@@ -30,11 +31,12 @@ const ContactForm = ({ isOpen, onClose }) => {
         console.log("Message submitted:", response);
         setName("");
         setMessage("");
+        setRecaptchaValue(null);
+        onClose();
       })
       .catch((error) => {
         console.error("Error sending message", error);
       });
-    // onClose();
   };
 
   return (
@@ -75,7 +77,6 @@ const ContactForm = ({ isOpen, onClose }) => {
           <ReCAPTCHA
             sitekey="6Ld_HCopAAAAAEM7b7mMoYJ5EmkCXDBsSrgvDSuZ"
             onChange={(value) => setRecaptchaValue(value)}
-            theme="dark"
           />
 
           <button
