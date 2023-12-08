@@ -69,7 +69,7 @@ const ContactForm = ({ isOpen, onClose }) => {
             id="message"
             name="message"
             rows="4"
-            className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="mb-4 w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
