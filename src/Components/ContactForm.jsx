@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-captcha";
 
 const ContactForm = ({ isOpen, onClose }) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!recaptchaValue) {
+      console.error("reCaptcha verification failed");
+      return;
+    }
+
     const serviceID = "service_zhjhchq";
     const templateID = "template_akffoha";
     const publicKey = "xdXJsVWDNuAvZdBbW";
@@ -63,6 +71,12 @@ const ContactForm = ({ isOpen, onClose }) => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
+
+          <ReCAPTCHA
+            sitekey="6Ld_HCopAAAAAEM7b7mMoYJ5EmkCXDBsSrgvDSuZ"
+            onChange={(value) => setRecaptchaValue(value)}
+            theme="dark"
+          />
 
           <button
             type="submit"
