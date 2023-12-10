@@ -31,6 +31,16 @@
   },
   {
     "id": 3,
+    "name": "Doyle's Pub",
+    "location": "North Side",
+    "address": "2919 151 Avenue NW",
+    "businessHours": "Monday to Wednesday 11am to Midnight | Thursday 11am to 1am | Friday, Saturday 11am to 2am | Sunday 10:30am to Midnight",
+    "happyhour": "Everyday 11am to 7pm",
+    "drinkSpecials": "$4.5 Daily Shooter Special | $5.75 Domestic Bottles, Canadian-made Highballs | $5.95 Craft Draught (16oz) | $6.5 Domestic Draught (16oz) | $6.95 Craft Cans",
+    "foodSpecials": ""
+  },
+  {
+    "id": 4,
     "name": "Earls Kitchen + Bar",
     "filteredLocations": ["North Side", "West Side", "South Side", "Downtown"],
     "locationAddresses": [
@@ -49,7 +59,20 @@
     "notes": "Clareview, 170 Street, Crossroads, and Southcommon have Half Dozen Oysters, West Edmonton Mall and Tin Palace does not. Campus does not have: Prawn Cocktail, Yuzu Tuna Tataki, Half Dozen Oysters or Seafood Platter"
   },
   {
-    "id": 4,
+    "id": 5,
+    "name": "Hudsons Canada's Pub",
+    "filteredLocations": ["West Side", "South Side"],
+    "locationAddresses": [
+      "Bourbon Street: West Edmonton Mall 8882 170 St NW",
+      "Whyte Ave: 10307 82 Ave NW"
+    ],
+    "businessHours": "WEM: Sun to Mon 11am to Midnight, Wed/Thurs 11am to 1am, Fri/Sat 11am to 2am | Whyte: Mon/Tues 3pm to Midnight, Wed/Thurs 3pm to 2am, Fri/Sat 11:30am to 2am, Sun 11am to Midnight",
+    "happyhour": "Weekdays 2pm to 6pm | Saturdays, Sundays and Holidays Open until 3pm",
+    "drinkSpecials": "$5 1oz High Balls, House Wine (5oz), Henry Hudsons Draft (16.5oz)",
+    "foodSpecials": "$5 Snacks | Saturday, Sundays and Holidays - $5 Mimosas (4oz), Beermosas (13oz), Shafts (1oz)"
+  },
+  {
+    "id": 6,
     "name": "JOEY",
     "filteredLocations": ["Downtown", "West Side", "South Side"],
     "locationAddresses": [
@@ -63,7 +86,17 @@
     "foodSpecials": "$5 Yam Fries / Fries, Duo of Donuts, Sushi Cone $8 Truffle Parmesan Fries | $12 Roasted Corn Guacamole, Japanese Gyoza | $14 Hummus, Sliders Royale Trio | $15 Hand-Pressed Burger (+ $4 to add mushroom and cheddar + $4 to add bacon cheddar) | $16 California Chicken Club | $19 Szechuan Chicken Lettuce Wraps, Szechuan Tofu Lettuce Wraps, Spaghetti Pomodoro, Crispy Tofu Bowl | $20 Teriyaki Chicken Rice Bowl | $21 Tuna Poke Bowl, Szechuan Prawn Lettuce Wraps | $23 Steak Frites"
   },
   {
-    "id": 5,
+    "id": 7,
+    "name": "Shenanigans Pub and Grill",
+    "location": "North Side",
+    "address": "550 Clareview Road NW",
+    "businessHours": "Monday to Wednesday 2pm to Midnight | Thursday, Friday 2pm to 2am | Saturday 11am to 2am | Sunday 11am to 9pm",
+    "happyhour": "Weekdays 2pm to 8pm",
+    "drinkSpecials": "$5 highballs (1oz), Bottled beer | $6 Granville Pints (16oz), Trash Panda Pints (16oz)",
+    "foodSpecials": "$5 Pretzel Bites, Bacon Cheese Fries | $6 Mini Perogies | $8 Personal Pizza 8”"
+  },
+  {
+    "id": 8,
     "name": "Thai Avenue",
     "location": "North Side",
     "address": "6536 170 Avenue NW",
@@ -73,7 +106,7 @@
     "foodSpecials": ""
   },
   {
-    "id": 6,
+    "id": 9,
     "name": "XO Bistro Downtown",
     "location": "Downtown",
     "address": "10236 103 Street NW",
