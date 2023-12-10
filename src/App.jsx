@@ -27,9 +27,13 @@ function App() {
       setFilteredRestaurants(restaurants);
       setActiveFilter(null);
     } else {
-      const filtered = restaurants.filter(
-        (restaurant) => restaurant.location === location
-      );
+      const filtered = restaurants.filter((restaurant) => {
+        if (Array.isArray(restaurant.filteredLocations)) {
+          return restaurant.filteredLocations.includes(location);
+        } else {
+          return restaurant.location === location;
+        }
+      });
       setFilteredRestaurants(filtered);
       setActiveFilter(location);
     }
