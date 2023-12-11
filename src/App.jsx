@@ -57,29 +57,6 @@ function App() {
       <Helmet>
         <title>Happy YEG | Happy Hour List for Edmonton Restaurants</title>
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
-        <meta
-          name="description"
-          content="Listing all of the happy hour specials of restaurants across the city of Edmonton"
-        />
-        {/* Open Graph tags */}
-        <meta property="og:title" content="Happy YEG" />
-        <meta
-          property="og:description"
-          content="A website that lists all the happy hour specials of restaurants across the city of Edmonton"
-        />
-        <meta property="og:image" content={happyLogo} />
-        <meta property="og:url" content="https://happyyeg.com" />
-        <meta property="og:type" content="website" />
-
-        {/* Twitter Card tags */}
-        <meta name="twitter:card" content={happyLogo} />
-        <meta name="twitter:title" content="Happpy YEG" />
-        <meta
-          name="twitter:description"
-          content="Listing all of the happy hour specials of restaurants across the city of Edmonton"
-        />
-        <meta name="twitter:image" content={happyLogo} />
-        <meta name="google-adsense-account" content="ca-pub-9756486243469160" />
       </Helmet>
       <NavBar setSearchTerm={setSearchTerm} openContactForm={openContactForm} />
       <div className="text-4xl flex items-center justify-center my-6 flex-col">
@@ -88,18 +65,23 @@ function App() {
       </div>
       <div id="top" className="flex flex-col justify-center px-8">
         <p className="mb-4">
-          These days, time are tough. It's getting harder to spend money when
-          you go out especially with prices going higher, but it doesn't mean
-          you can't go out and celebrate without breaking the bank! Take
-          advantage of happy hours to save you money while still being able to
-          go out.
+          These days, it's getting harder to spend money going out when food
+          prices keep getting higher, but it doesn't mean you can't go out and
+          celebrate without breaking the bank! Take advantage of happy hours to
+          save money while still being able to go out.
         </p>
         <p>
           Don't know what the happy hour specials are in the restaurants in your
           area? Don't sweat, that's what this site is for! Here's a list of
           happy hours throughout the city of Edmonton. This list will grow as
-          more research is done and I will update as things change. Have a look,
-          and I hope you find a great place close to you!
+          more research is done and more restaurants are discovered. I will
+          update as things change and will also be adding daily specials soon as
+          some of these places have some really good ones. Have a look, and I
+          hope you find a great place close to you! I'll try to keep everything
+          as up to date as I can, but if there's something needs updating, or if
+          you'd like to let me know about a restaurant that should be on the
+          list let me know! Send me a message through the contact form in the
+          menu.
         </p>
       </div>
       <ButtonGroup handleFilter={handleFilter} />

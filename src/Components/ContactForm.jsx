@@ -43,12 +43,7 @@ const ContactForm = ({ isOpen, onClose }) => {
     <div className={`modal ${isOpen ? "block" : "hidden"}`}>
       <div className="modal-overlay" onClick={onClose}></div>
       <div className="modal-container bg-white dark:bg-gray-800 dark:text-white mx-auto mt-16 p-6 rounded-lg shadow-lg">
-        <p>
-          I try to keep everything as up to date as I possibly but if there's
-          something that is outdated, or if you'd like to let me know about a
-          restaurant that should be on the list let me know! Fill out the
-          message form below to send me a message.
-        </p>
+        <p>If you want to reach out, send me a message here.</p>
 
         <form onSubmit={handleSubmit}>
           <label htmlFor="name" className="block mt-4 text-sm font-medium">
