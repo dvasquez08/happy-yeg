@@ -70,18 +70,21 @@ function App() {
           celebrate without breaking the bank! Take advantage of happy hours to
           save money while still being able to go out.
         </p>
-        <p>
+        <p className="mb-4">
           Don't know what the happy hour specials are in the restaurants in your
           area? Don't sweat, that's what this site is for! Here's a list of
           happy hours throughout the city of Edmonton. This list will grow as
           more research is done and more restaurants are discovered. I will
           update as things change and will also be adding daily specials soon as
           some of these places have some really good ones. Have a look, and I
-          hope you find a great place close to you! I'll try to keep everything
-          as up to date as I can, but if there's something needs updating, or if
-          you'd like to let me know about a restaurant that should be on the
-          list let me know! Send me a message through the contact form in the
-          menu.
+          hope you find a great place close to you!
+        </p>
+        <p>
+          I'll try to keep everything as up to date as I can, but if there's
+          something needs updating, or if you'd like to let me know about a
+          restaurant that should be on the list let me know! Send me a message
+          through the contact form in the menu. If there's a restaurant you want
+          to look for, try a search in the search bar, also in the menu.
         </p>
       </div>
       <ButtonGroup handleFilter={handleFilter} />
