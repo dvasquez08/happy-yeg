@@ -1,6 +1,6 @@
 # Happy YEG
 
-This is a fun little project that I built. This website was built using React and Tailwind CSS. It was a lot of fun to build. Here's how it works:
+This is a fun little project that I built. This website was built using React and Tailwind CSS. Perhaps this can become an open source project where people in the city of Edmonton can contribute to the list of restaurants. For now, they're manually being put in. It was a lot of fun to build. Here's how it works:
 
 ## Navbar
 
