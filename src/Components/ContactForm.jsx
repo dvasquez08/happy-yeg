@@ -15,9 +15,9 @@ const ContactForm = ({ isOpen, onClose }) => {
       return;
     }
 
-    const serviceID = "service_zhjhchq";
-    const templateID = "template_akffoha";
-    const publicKey = "xdXJsVWDNuAvZdBbW";
+    const serviceID = "service_dj03a0a";
+    const templateID = "template_h5qlgox";
+    const publicKey = "6-s1ln-dstDaW-VJB";
 
     const templateParams = {
       from_name: name,
